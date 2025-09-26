@@ -19,4 +19,8 @@ def permissions(path: str, mode: int):
             except Exception as ex:
                 print(f"error {dir_path}: {ex}")
 
-permissions("D:/Files/education/Created/test", 0o644)
+print("Enter path: ")
+a = input()
+permissions(a, 0o644)
+
+# "D:/Files/education/Created/test"
